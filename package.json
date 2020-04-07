@@ -1,8 +1,10 @@
 {
-	"private": true,
-	"scripts": {},
-	"devDependencies": {},
-	"dependencies": {
-		"express": "4.17.1"
-	}
+  "private": true,
+  "scripts": {
+    "preinstall": "node preinstall.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "express": "4.17.1"
+  }
 }
